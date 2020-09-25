@@ -1,5 +1,5 @@
 var score = 0;
-var time = 9;
+var time = 5;
 var number1 = Math.round(Math.random() * 100);
 var number2 = Math.round(Math.random() * 100);
 
@@ -55,7 +55,7 @@ lesserThan.onclick = () => {
 var timerId;
 
 function startTimer() {
-  time = 9;
+  time = 5;
   timer.innerHTML = time;
   timerId = setInterval(() => {
     time--;
